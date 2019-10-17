@@ -27,7 +27,7 @@ public class Gym extends Customer {
                 }
                 if (activeMember(c1)) {
                     JOptionPane.showMessageDialog(null, c1.name + " har ett aktivt medlemskap.");
-                    writeToFile(c1, "C:\\Users\\Leon_\\IdeaProjects\\Inlämningsuppgift 2 OOP\\src\\LastTrained");
+                    writeToFile(c1, "C:\\Users\\Leon_\\IdeaProjects\\Inlämningsuppgift 2 OOP\\src\\LastTrained.txt");
 
                 } else {
                     JOptionPane.showMessageDialog(null, c1.name + " finns i systemet men har inget aktivt medlemskap");
