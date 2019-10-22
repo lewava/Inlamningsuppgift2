@@ -8,6 +8,8 @@ import java.util.*;
 
 public class Gym extends Customer {
 
+    public Gym() {}
+
     public Gym(String name, String personNr, LocalDate gymFee) {
         super(name, personNr, gymFee);
     }
@@ -43,7 +45,7 @@ public class Gym extends Customer {
     }
 
     public static List<Customer> readFile() {
-        String file = "C:\\Users\\Leon_\\IdeaProjects\\Inlämningsuppgift 2 OOP\\src\\Customers.txt";
+        String file = "C:\\Users\\Leon_\\IdeaProjects\\Inlämningsuppgift 2 OOP\\src\\Inlämningsuppgift2\\Customers.txt";
         String firstLine;
         String personNr;
         String name;

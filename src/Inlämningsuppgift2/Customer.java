@@ -8,6 +8,8 @@ public class Customer {
     protected String personNr;
     protected LocalDate gymFee;
 
+    public Customer (){}
+
     public Customer (String name, String personNr, LocalDate gymFee) {
         this.name = name;
         this.personNr = personNr;
