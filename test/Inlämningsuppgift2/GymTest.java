@@ -13,7 +13,6 @@ public class GymTest {
     Customer c2 = new Customer("Leon Vallin", "9803102913", LocalDate.parse("2015-01-30"));
     Gym gym = new Gym();
     List<Customer> customerList = new ArrayList<>();
-    String file = "C:\\Users\\Leon_\\IdeaProjects\\Inlämningsuppgift 2 OOP\\src\\Customers.txt";
 
     @Test
     public void activeMemberTest() {
